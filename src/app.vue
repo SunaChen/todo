@@ -6,11 +6,12 @@
     <Footer></Footer>
   </div>
 </template>
-
 <script>
-import Header from './todo/header.vue'
-import Footer from './todo/footer.jsx'
-import Todo from './todo/todo.vue'
+import Header from './layout/header.vue'
+import Footer from './layout/footer.jsx'
+import Todo from './views/todo/todo.vue'
+//自定义模块
+console.log(Header.__docs)
 
 export default {
   components: {
